@@ -1,0 +1,8 @@
+due to the tremendous development of the world in industry, for instance, cars manufactures, 
+ There are a huge number of cars and trucks around the world, which resulting in a big number of collisions and fatalities.
+ so, The traffic accidents are consider a very big, common and important issue in each country around the world. 
+so we are as a data scientists should find a solution for such a problem that reduce the collisions as much as possible.
+in this project we will be working on a data set for the Seattle city to build a model who can predict the severity of the Accidents, based on some factors,
+ for example, the weather, the road conditions and so on.
+after building a model that results a good accuracy, we can use it as alert sign on the roads 
+and highways to warn the drivers and inform them about the possibilty of getting into an accident and its severity.       
