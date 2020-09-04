@@ -1,0 +1,70 @@
+In this capstone project we will be working on a data set to build a model who can predict 
+the severity of the Accidents, based on some factors, for example, the weather, the road conditions and so on.
+This data set has been collected from collisions and accidents in the Seattle city.
+
+
+You can download the data set in CSV format from the following link:
+
+https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv.
+ 
+ 
+Let's open the CSV file and check what type of data we have. 
+The first column is the labeled data. The remaining columns have different types of attributes. 
+Some or all can be used to train the model, we will see which attributes to use in the code section.
+ 
+The label for the data set is severity, which describes the fatality of an accident. 
+You will notice that the shared data has unbalanced labels. You should balance the data, otherwise, 
+you will create a biased ML model.
+ 
+The following is a list of attributes or features a long with some description about each attribute: 
+
+Attributes      Description
+
+OBJECTID:       ESRI unique identifier
+SHAPE:          ESRI geometry field
+INCKEY:         A unique key for the incident
+COLDETKEY:      Secondary key for the incident
+ADDRTYPE:       Collision address type:
+                 • Alley
+                 • Block
+                 • Intersection
+INTKEY:         that corresponds to the intersection
+                associated with a collision 
+
+LOCATION:       Description of the general location of the
+                collision
+EXCEPTRSNCODE:
+EXCEPTRSNDESC:
+SEVERITYCODE:   A code that corresponds to the severity of the collision:
+                 • 3—fatality
+                 • 2b—serious injury
+                 • 2—injury
+                 • 1—prop damage
+                 • 0—unknown
+SEVERITYDESC:   A detailed description of the severity of the collision
+COLLISIONTYPE:  Collision type
+PERSONCOUNT:    The total number of people involved in the collision
+PEDCOUNT:       The number of pedestrians involved in the collision. This is entered by the state.
+PEDCYLCOUNT:    The number of bicycles involved in the collision. This is entered by the state.
+VEHCOUNT:       The number of vehicles involved in the collision. This is entered by the state.
+INJURIES:       The number of total injuries in the collision. This is entered by the state.
+SERIOUSINJURIES:The number of serious injuries in the collision. This is entered by the state.
+FATALITIES:     The number of fatalities in the collision. This is entered by the state.
+INCDATE:        The date of the incident.
+INCDTTM:        The date and time of the incident.
+JUNCTIONTYPE:   Category of junction at which collision took place
+SDOT_COLCODE:   A code given to the collision by SDOT.
+SDOT_COLDESC:   A description of the collision corresponding to the collision code.
+INATTENTIONIND: Whether or not collision was due to inattention.(Y/N)
+UNDERINFL:      Whether or not a driver involved was under the influence of drugs or alcohol. 
+WEATHER:        A description of the weather conditions during the time of the collision.
+ROADCOND:       The condition of the road during the collision.
+LIGHTCOND:      The light conditions during the collision.
+PEDROWNOTGRNT:  Whether or not the pedestrian right of way was not granted. (Y/N)
+SDOTCOLNUM:     A number given to the collision by SDOT.
+SPEEDING:       Whether or not speeding was a factor in the collision. (Y/N)
+ST_COLCODE:     A code provided by the state that describes the collision.
+ST_COLDESC:     A description that corresponds to the state’s coding designation.
+SEGLANEKEY:     A key for the lane segment in which the collision occurred.
+CROSSWALKKEY:   A key for the crosswalk at which the collision occurred.
+HITPARKEDCAR:   Whether or not the collision involved hitting a parked car. (Y/N) 
