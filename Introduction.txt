@@ -9,4 +9,7 @@ In this project we will be working on a data set for the Seattle city to build a
 the severity of the Accidents, based on some factors, for example, the weather, the road conditions and so on.
 
 After building a model that results a good accuracy, we can use it as alert sign on the roads and highways to warn
-the drivers and inform them about the possibilty of getting into an accident and its severity.       
+the drivers and inform them about the possibilty of getting into an accident and its severity.
+
+The target audience of this project are drivers and anyone else who waking or riding a motorcycle or bicycle on highways, 
+because it protects them and inform them about the severity of the accidents if the get into it.      
