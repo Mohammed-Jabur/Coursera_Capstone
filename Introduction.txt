@@ -1,7 +1,7 @@
-due to the tremendous development of the world in industry, for instance, cars manufactures, There are a huge 
+Due to the tremendous development of the world in industry, for instance, cars manufactures, There are a huge 
 number of cars and trucks around the world, which resulting in a big number of collisions and fatalities.
 
-so, The traffic accidents are consider a very big, common and important issue in each country around the world. 
+So, The traffic accidents are consider a very big, common and important issue in each country around the world. 
 So we are as a data scientists should find a solution for such a problem that reduce the collisions as much as possible.
 
 
